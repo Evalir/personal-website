@@ -1,6 +1,6 @@
 import * as React from 'react'
 import 'styled-components/macro'
-import SafeLink from '../components/SafeLink/SafeLink'
+import SafeLink from '../components/safeLink/safeLink'
 
 export default function Now() {
   return (
