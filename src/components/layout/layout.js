@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import 'styled-components/macro'
 import Footer from '../footer/footer'
 import Nav from '../nav/nav'
@@ -15,6 +16,9 @@ export default function Layout({ children }) {
         padding: 1.6rem;
       `}
     >
+      <Helmet>
+        <title>Enrique Ortiz</title>
+      </Helmet>
       <Nav />
       <GlobalStyles />
       <Typography />

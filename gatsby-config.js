@@ -1,17 +1,24 @@
 module.exports = {
   siteMetadata: {
-    title: 'enriqueortiz.dev',
+    title: 'Enrique Ortiz',
   },
   plugins: [
-    {
-      resolve: 'gatsby-source-sanity',
-      options: {
-        projectId: 'sze9elpq',
-        dataset: 'production',
-      },
-    },
     'gatsby-plugin-styled-components',
     'gatsby-plugin-offline',
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Enrique Ortiz',
+        short_name: 'Enrique Ortiz',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#ffffff',
+        display: 'standalone',
+        icon: 'src/images/icon.png',
+        crossOrigin: `use-credentials`,
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {

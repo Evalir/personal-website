@@ -4,6 +4,7 @@ import 'styled-components/macro'
 export default function About() {
   return (
     <>
+      {' '}
       <main
         css={`
           width: 100%;

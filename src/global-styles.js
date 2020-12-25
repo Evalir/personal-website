@@ -24,19 +24,15 @@ const GlobalStyles = createGlobalStyle`
     font-size: 2rem;
   }
 
-  /* Scrollbar Styles */
-  body::-webkit-scrollbar {
-    width: 12px;
-  }
   html {
     scrollbar-width: thin;
-    scrollbar-color: var(--red) var(--white);
+    scrollbar-color: var(--yellow) var(--white);
   }
   body::-webkit-scrollbar-track {
     background: var(--white);
   }
   body::-webkit-scrollbar-thumb {
-    background-color: var(--red) ;
+    background-color: var(--yellow) ;
     border-radius: 6px;
     border: 3px solid var(--white);
   }
