@@ -1,7 +1,5 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
 import 'styled-components/macro'
-import SafeLink from '../components/safeLink/safeLink'
 
 export default function About() {
   return (

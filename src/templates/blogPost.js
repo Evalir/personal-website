@@ -31,12 +31,6 @@ export default function BlogTemplate({ data }) {
         dangerouslySetInnerHTML={{ __html: html }}
         css={`
           font-family: 'Source Sans Pro';
-          p {
-            img {
-              // horrible fix until we use MDX. Images have no respect for size. >:(
-              max-width: 660px;
-            }
-          }
         `}
       />
     </div>

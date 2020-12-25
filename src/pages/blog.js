@@ -61,16 +61,21 @@ const Divider = styled.div`
 `
 
 export const pageQuery = graphql`
-  query {
-    allMarkdownRemark {
+  {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
-        frontmatter {
-          date(formatString: "DD MMMM, YYYY")
-          slug
-          title
-        }
-        excerpt
+        ...MarkdownRemarkFragment
       }
     }
+  }
+
+  fragment MarkdownRemarkFragment on MarkdownRemark {
+    frontmatter {
+      date(formatString: "DD MMMM, YYYY")
+      slug
+      title
+    }
+    excerpt
+    timeToRead
   }
 `

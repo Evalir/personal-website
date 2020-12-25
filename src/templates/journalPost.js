@@ -53,10 +53,6 @@ export default function JournalTemplate({ data }) {
             font-size: 1.6rem;
             line-height: 2.5rem;
             ${breakpoint('small', `font-size: 2rem; line-height: 4rem;`)}
-            img {
-              // horrible fix until we use MDX. Images have no respect for size. >:(
-              max-width: 660px;
-            }
           }
         `}
       />
