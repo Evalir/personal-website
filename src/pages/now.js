@@ -26,8 +26,8 @@ export default function Now() {
         <h2>Work</h2>
         <ul>
           <li>
-            Currently taking the much-needed christmas break from an insane year
-            at Aragon One.
+            Currently taking the much-needed christmas break from an insane(ly
+            good) year at Aragon One.
           </li>
           <li>
             Building{' '}
