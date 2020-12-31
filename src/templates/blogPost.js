@@ -4,7 +4,7 @@ import 'styled-components/macro'
 
 export default function BlogTemplate({ data }) {
   const { markdownRemark } = data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter, html, timeToRead } = markdownRemark
 
   return (
     <div>
@@ -25,7 +25,7 @@ export default function BlogTemplate({ data }) {
           margin-bottom: 6rem;
         `}
       >
-        {frontmatter.date}
+        {frontmatter.date} - {timeToRead} minute read
       </h2>
       <div
         dangerouslySetInnerHTML={{ __html: html }}
@@ -46,6 +46,7 @@ export const pageQuery = graphql`
         slug
         title
       }
+      timeToRead
     }
   }
 `

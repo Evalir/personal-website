@@ -8,9 +8,7 @@ export default function BlogTemplate({ data }) {
     allMarkdownRemark: { nodes },
   } = data
 
-  console.log(nodes)
-
-  return nodes.map(({ excerpt, frontmatter }) => {
+  return nodes.map(({ excerpt, frontmatter, timeToRead }) => {
     const { date, slug, title } = frontmatter
 
     return (
@@ -24,34 +22,70 @@ export default function BlogTemplate({ data }) {
             color: var(--gray);
           `}
         >
-          <h3
-            css={`
-              font-size: 1.6rem;
-              margin-bottom: 1.6rem;
-            `}
-          >
-            {date.toUpperCase()} - {slug.includes('blog') ? 'Blog' : 'Journal'}
-          </h3>
-          <h2>
-            <Link to={slug}>{title}</Link>
-          </h2>
-          {/* TODO: Detect this with the first slash of the slug (/blog/my-blog-post) */}
-          {slug.includes('blog') && (
-            <p
-              css={`
-                font-size: 1.6rem;
-                color: black;
-                font-family: 'Source Sans Pro';
-                line-height: 2.4rem;
-              `}
-            >
-              {excerpt}
-            </p>
+          {slug.includes('/blog/') ? (
+            <BlogPost
+              date={date}
+              title={title}
+              slug={slug}
+              excerpt={excerpt}
+              timeToRead={timeToRead}
+            />
+          ) : (
+            <JournalEntry date={date} slug={slug} />
           )}
         </div>
       </>
     )
   })
+}
+
+function BlogPost({ date, excerpt, slug, timeToRead, title }) {
+  return (
+    <>
+      <h3
+        css={`
+          margin-bottom: 1.6rem;
+          font-size: 1.6rem;
+        `}
+      >
+        {date.toUpperCase()} - {`${timeToRead} minute read`}
+      </h3>
+      <h2>
+        <Link to={slug}>{title}</Link>
+      </h2>
+      <p
+        css={`
+          font-size: 1.6rem;
+          font-family: 'Source Sans Pro';
+          line-height: 2.4rem;
+          color: black;
+        `}
+      >
+        {excerpt}
+      </p>
+    </>
+  )
+}
+
+function JournalEntry({ date, slug }) {
+  return (
+    <h2
+      css={`
+        font-size: 1.8rem;
+      `}
+    >
+      <Link
+        to={slug}
+        css={`
+          background: none;
+          text-decoration: underline;
+        `}
+      >
+        {date}
+      </Link>
+      &nbsp;journal entry
+    </h2>
+  )
 }
 
 const Divider = styled.div`
