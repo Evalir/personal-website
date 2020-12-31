@@ -41,12 +41,12 @@ Even though I put artists I actually _listened to_, as in check out their discog
 - <a href="https://www.youtube.com/watch?v=cpjby8K70AM" rel="noopener noreferrer" target="_blank">Submissive by Oleg Byonic</a>
 - <a href="https://www.youtube.com/watch?v=CN3cgkGwtq0" rel="noopener noreferrer" target="_blank">Journey by Tim Schaufert</a>
 - <a href="https://www.youtube.com/watch?v=DKbfBSrjVHA" rel="noopener noreferrer" target="_blank">can we kiss forever? by Kina and Adrianza Proenza</a>
-- <a href="https://www.youtube.com/watch?v=Nq5LMGtBmis" rel="noopener noreferrer" target="_blank">Ocean by Hazy</a>
-- <a href="https://www.youtube.com/watch?v=Nq5LMGtBmis" rel="noopener noreferrer" target="_blank">Mil Sonidos by Reina del Mar</a>
-- <a href="https://www.youtube.com/watch?v=Nq5LMGtBmis" rel="noopener noreferrer" target="_blank">You Can Be My Light by Trivecta & Nurko (feat. Monika Santucci)</a>
-- <a href="https://www.youtube.com/watch?v=Nq5LMGtBmis" rel="noopener noreferrer" target="_blank">The Adults Are Talking by The Strokes</a>
+- <a href="https://www.youtube.com/watch?v=g6Ji4DG8sOE" rel="noopener noreferrer" target="_blank">Ocean by Hazy</a>
+- <a href="https://www.youtube.com/watch?v=RauyxCm6-cQ" rel="noopener noreferrer" target="_blank">Mil Sonidos by Reina del Mar</a>
+- <a href="https://www.youtube.com/watch?v=DqAM-fT6vlU" rel="noopener noreferrer" target="_blank">You Can Be My Light by Trivecta & Nurko (feat. Monika Santucci)</a>
+- <a href="https://www.youtube.com/watch?v=o4qsjmLxhow" rel="noopener noreferrer" target="_blank">The Adults Are Talking by The Strokes</a>
 - <a href="https://www.youtube.com/watch?v=yLP7u9bcP8s" rel="noopener noreferrer" target="_blank">Altay by Elderwind</a>
-- <a href="https://www.youtube.com/watch?v=yLP7u9bcP8s" rel="noopener noreferrer" target="_blank">The Void Alone by Fallujah</a>
+- <a href="https://www.youtube.com/watch?v=znjLSW8kfBM" rel="noopener noreferrer" target="_blank">The Void Alone by Fallujah</a>
 - <a href="https://www.youtube.com/watch?v=5LvrhzQF1zY" rel="noopener noreferrer" target="_blank">Clone Mutation by Rocky Gray</a>
 
 Most of these are not metal, which is the pretty surprising part. This year was all about listening to different music, and that turned out very well! Most of those songs, at some point of the year, were on repeat while I was working.
@@ -55,13 +55,13 @@ Most of these are not metal, which is the pretty surprising part. This year was 
 
 There were a few:
 
-- <a href="https://www.youtube.com/watch?v=Nq5LMGtBmis" rel="noopener noreferrer" target="_blank">Up Into The Ether by I Built The Sky</a>. Like a comment says, it's Stainless Steel—metal, but clean. I personally love this song and by the end of this year I had it on repeat again.
+- <a href="https://www.youtube.com/watch?v=OTBdO18zmxQ" rel="noopener noreferrer" target="_blank">Up Into The Ether by I Built The Sky</a>. Like a comment says, it's Stainless Steel—metal, but clean. I personally love this song and by the end of this year I had it on repeat again.
 - <a href="https://www.youtube.com/watch?v=A6j7mUxGz20" rel="noopener noreferrer" target="_blank">Fjara by Sólstafir</a>. A haunting but beautiful song. While the band [screwed their original drummer out in 2015/2016](https://solstafirofficial.wordpress.com/2015/06/03/statement-about-my-forced-absence-from-solstafir/), I still really like this song.
 - <a href="https://www.youtube.com/watch?v=6XJBDX3Z0BY" rel="noopener noreferrer" target="_blank">Tycho</a>. He recently released 2 albums, one of which is just the instrumental version of the first one. He's an amazing artist and for the latter part of my teenage years and after that (me being 21 now), songs like [Awake](https://www.youtube.com/watch?v=6XJBDX3Z0BY) and [A Walk](https://www.youtube.com/watch?v=SDNA934EEVk) have been with me in countless places. In fact, Awake was the first song I listened to on a plane back in march!
 - <a href="https://www.youtube.com/watch?v=RwuPPLdyOnU" rel="noopener noreferrer" target="_blank">Dawn by Hiatus</a>. I always procrastinate checking out this guy, but this song is one of my all time favorites. I tend to put either flavor, places, or colors to songs, and this song is a starry night sky somewhere in nature. It's good for thinking and inspiration.
-- <a href="https://www.youtube.com/watch?v=Pos1saIwIlI" rel="noopener noreferrer" target="_blank">Omnium Gatherum</a>. I've been a listener since around 2014, but they released an album last year and I was hooked again. These guys, together with Insomnium and Wintersun (which the main guitarist and composer of this band is a member of as well), are pretty much the kings of _Very_ Melodic Death Metal.
+- <a href="https://www.youtube.com/watch?v=Pos1saIwIlI" rel="noopener noreferrer" target="_blank">Omnium Gatherum</a>. I've been a listener since around 2014, but they released an album last year and I was hooked again. These guys, together with Insomnium (which the main guitarist and composer of this band is a member of as well) and Wintersun, are pretty much the kings of _Very_ Melodic Death Metal.
 - <a href="https://www.youtube.com/watch?v=mzEv-4xcYig" rel="noopener noreferrer" target="_blank">Wintersun</a>. While I did not like their most recent album, because it's too slow and jumpy for me, and I'm a sucker for either very melodic or fast songs, I did reconnect with their _Time_ album*.* And of course, it's a masterpiece.
-- <a href="https://www.youtube.com/watch?v=5LvrhzQF1zYg" rel="noopener noreferrer" target="_blank">Primus</a>. They suck. Hard. And I love them. I got to know them with Tony Hawk Pro Skater (the original, not the remake), and when we got the remake this year I got hooked again.
+- <a href="https://www.youtube.com/watch?v=lkFMJ4-ai1I" rel="noopener noreferrer" target="_blank">Primus</a>. They suck. Hard. And I love them. I got to know them with Tony Hawk Pro Skater (the original, not the remake), and when we got the remake this year I got hooked again.
 
 ## Honorable mentions
 
@@ -69,12 +69,12 @@ These are mostly songs which are the foundations of my playlists or working musi
 
 - <a href="https://www.youtube.com/watch?v=14Rn09k6DqU" rel="noopener noreferrer" target="_blank">Heart of the Sea Nymph by Keith Merrow</a>. The last riff. _That_ last riff. That's the only thing I have to say.
 - <a href="https://www.youtube.com/watch?v=e5TUmO4cwQI" rel="noopener noreferrer" target="_blank">La Babouche by Fishbach</a>. One of those songs that I put on when debugging CSS. Don't ask. It's just a great song. My very broken french lets me understand a little bit of it.
-- <a href="https://www.youtube.com/watch?v=j3ondhgj0dw" rel="noopener noreferrer" target="_blank">Holding On by Dragonforce</a>. if it's Dragonforce, it's probably very good.
-- <a href="https://www.youtube.com/watch?v=5LvrhzQF1zY" rel="noopener noreferrer" target="_blank">Souvenirs D'Un Autre Monde by Alcest</a>. An excellent song for when it's raining.
-- [Celestial Furnace by Disarmonia Mundi](https://www.youtube.com/watch?v=5LvrhzQF1zY) - Just a great song overall.
+- <a href="https://www.youtube.com/watch?v=a1R1qjiElF8" rel="noopener noreferrer" target="_blank">Holding On by Dragonforce</a>. if it's Dragonforce, it's probably very good.
+- <a href="https://www.youtube.com/watch?v=4PmCb9OiFYQ" rel="noopener noreferrer" target="_blank">Souvenirs D'Un Autre Monde by Alcest</a>. An excellent song for when it's raining.
+- [Celestial Furnace by Disarmonia Mundi](https://www.youtube.com/watch?v=5LFILUCVFbM). Just a great song overall.
 
 ## Song of the year
 
-That would be <a href="https://www.youtube.com/watch?v=RwuPPLdyOnU" rel="noopener nooreferrer" target="_blank">Dawn, by Hiatus.</a> This was not necessarily _the most listened to_ song of 2020 for me (Spotify says it actually was Archspire's [Lucid Collective Somnambulation](https://www.youtube.com/watch?v=WEuiZFb2wHY)), but it was the most _intentionally listened to_ song of this year. As I said, it's a great song for thinking, and I had to do a lot of that this year.
+That would be <a href="https://www.youtube.com/watch?v=FE70-k_Nls8" rel="noopener nooreferrer" target="_blank">Dawn</a>, by Hiatus. This was not necessarily _the most listened to_ song of 2020 for me (Spotify says it actually was Archspire's [Lucid Collective Somnambulation](https://www.youtube.com/watch?v=WEuiZFb2wHY)), but it was the most _intentionally listened to_ song of this year. As I said, it's a great song for thinking, and I had to do a lot of that this year.
 
 Now, with all of that said, cheers to 2021!
