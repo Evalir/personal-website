@@ -25,10 +25,10 @@ export default function BlogTemplate({ data }) {
           {slug.includes('/blog/') ? (
             <BlogPost
               date={date}
-              title={title}
-              slug={slug}
               excerpt={excerpt}
+              slug={slug}
               timeToRead={timeToRead}
+              title={title}
             />
           ) : (
             <JournalEntry date={date} slug={slug} />
