@@ -26,8 +26,7 @@ export default function About() {
           <SafeLink href="https://github.com/evalir">
             Software Developer
           </SafeLink>
-          , Musician and occasional skater and photographer living in the
-          Dominican Republic.
+          , Musician, and life lover living in the Dominican Republic.
         </p>
         <p>
           I enjoy experimenting with and learning new things constantly—those
