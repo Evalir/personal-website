@@ -26,16 +26,14 @@ export default function About() {
           <SafeLink href="https://github.com/evalir">
             Software Developer
           </SafeLink>
-          , Musician, and life lover living in the Dominican Republic.
+          , Musician, and life tinkerer living in the Dominican Republic.
         </p>
         <p>
           I enjoy experimenting with and learning new things constantly—those
           are the things I'd say I do somewhat well, at least. These involve
-          mainly web technologies. It's sort of what I do at my day job at
-          Aragon One: I work with design and product to launch experiments and
-          drive product initiatives to find PMF in the Blockchain (Ethereum)
-          space. I also do Frontend Engineering (and all things javascript, for
-          that matter), to improve and maintain our already existing products.
+          mainly web technologies. On my day job at Pocket Network, I apply this
+          knowledge and maintain user-facing products such as the Dashboard,
+          Wallet and Block Explorer. Call that full-stack, if you will.
         </p>
 
         <p>
