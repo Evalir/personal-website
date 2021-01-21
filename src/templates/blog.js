@@ -95,8 +95,12 @@ const Divider = styled.div`
 `
 
 export const pageQuery = graphql`
-  {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+  query blogQuery($skip: Int!, $limit: Int!) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: $limit
+      skip: $skip
+    ) {
       nodes {
         ...MarkdownRemarkFragment
       }
