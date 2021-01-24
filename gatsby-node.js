@@ -1,3 +1,7 @@
+const path = require('path')
+
+const POSTS_PER_PAGE = 10
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
@@ -26,12 +30,23 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return
   }
 
-  // While this will work fine for now, eventually we will wanna paginate
-  // blog posts. For posterity, here's a nice way to do it:
-  // https://www.gatsbyjs.com/docs/adding-pagination/
-  // Also, as this node API requires everything to be done in this function
-  // definition, it would be good to pipe all functions that create pages
-  // for cleanliness.
+  const numOfPosts = result.data.allMarkdownRemark.edges.length
+  const numOfPages = Math.ceil(numOfPosts / POSTS_PER_PAGE)
+
+  Array.from({ length: numOfPages }).forEach((_, i) => {
+    console.log(i)
+    createPage({
+      path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+      component: path.resolve('./src/templates/blog.js'),
+      context: {
+        limit: POSTS_PER_PAGE,
+        skip: i * POSTS_PER_PAGE,
+        numOfPages,
+        currentPage: i + 1,
+      },
+    })
+  })
+
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.slug,
