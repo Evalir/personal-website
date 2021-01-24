@@ -83,7 +83,7 @@ function PaginationButton({ forward = true, to }) {
       <Link
         to={to}
         css={`
-          font-size: 4rem;
+          font-size: 3rem;
         `}
       >
         {forward ? 'Newer →' : '← Older'}
