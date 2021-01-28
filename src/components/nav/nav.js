@@ -2,6 +2,7 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import 'styled-components/macro'
 import { breakpoint } from '../../lib/breakpoints'
+import SafeLink from '../safeLink/safeLink'
 
 export default function Nav() {
   return (
@@ -35,7 +36,7 @@ export default function Nav() {
         `}
       >
         <Link to="/blog">Blog</Link>
-        <Link to="/work">Work</Link>
+        <SafeLink location="https://github.com/Evalir">Work</SafeLink>
         <Link to="/about">About</Link>
         <Link to="/more">More</Link>
       </div>

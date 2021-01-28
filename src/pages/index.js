@@ -28,13 +28,16 @@ export default function Index() {
           regularly, with varying degrees of success.
         </p>
         <p>
-          I currently work as a Software Engineer at&nbsp;
-          <SafeLink href="https://aragon.one">Aragon One</SafeLink>, in which I
-          usually do frontend development and run experiments to inform product
-          initiatives. Before that I was working at Digital Human, a digital
-          transformation company. I also like to experiment out in the open with
-          Open Source whenever I have time. If you want to get in touch,
-          just&nbsp;
+          I currently work as a Full-Stack Software Engineer at&nbsp;
+          <SafeLink href="https://pokt.network">Pocket Network</SafeLink>, in
+          which I maintain, help set technical direction and develop our
+          user-facing products as part of the Ecosystem Development Team. Before
+          that I was working at{' '}
+          <SafeLink href="https://aragon.one">Aragon One</SafeLink>, where I
+          maintained various Javascript libraries and applications, and
+          spearheaded product initiatives. I also like to experiment out in the
+          open with Open Source whenever I have time. If you want to get in
+          touch, just&nbsp;
           <a href="mailto: hi@enriqueortiz.dev">shoot me an email</a>.
         </p>
       </main>
