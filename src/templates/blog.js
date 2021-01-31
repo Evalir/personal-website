@@ -1,16 +1,13 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import { useLocation } from '@reach/router'
 import styled from 'styled-components'
 import 'styled-components/macro'
 
-export default function BlogTemplate({ data, pathContext }) {
-  const { origin } = useLocation()
+export default function BlogTemplate({ data, pageContext }) {
   const {
     allMarkdownRemark: { nodes },
   } = data
-  const { currentPage = 1, numOfPages } = pathContext
-  console.log('origin / currentpage', origin, currentPage)
+  const { currentPage = 1, numOfPages } = pageContext
 
   const hasPagesBehind = currentPage < numOfPages
   const hasPagesInFront = currentPage > 1
@@ -57,7 +54,7 @@ export default function BlogTemplate({ data, pathContext }) {
         {hasPagesBehind ? (
           <PaginationButton
             forward={false}
-            to={`${origin}/blog/${currentPage + 1}`}
+            to={`/blog/${currentPage + 1}`}
           />
         ) : (
           <div
@@ -68,7 +65,7 @@ export default function BlogTemplate({ data, pathContext }) {
         )}
         {hasPagesInFront && (
           <PaginationButton
-            to={`${origin}/blog/${
+            to={`/blog/${
               currentPage - 1 === 1 ? '' : currentPage - 1
             }`}
           />
