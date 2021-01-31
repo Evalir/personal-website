@@ -9,7 +9,7 @@ export default function BlogTemplate({ data, pathContext }) {
   const {
     allMarkdownRemark: { nodes },
   } = data
-  const { currentPage, numOfPages } = pathContext
+  const { currentPage = 1, numOfPages } = pathContext
 
   const hasPagesBehind = currentPage < numOfPages
   const hasPagesInFront = currentPage > 1
