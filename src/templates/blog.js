@@ -18,7 +18,7 @@ export default function BlogTemplate({ data, pageContext }) {
         const { date, slug, title } = frontmatter
 
         return (
-          <>
+          <React.Fragment key={slug}>
             <Divider />
             <div
               css={`
@@ -40,7 +40,7 @@ export default function BlogTemplate({ data, pageContext }) {
                 <JournalEntry date={date} slug={slug} />
               )}
             </div>
-          </>
+          </React.Fragment>
         )
       })}
       <div
