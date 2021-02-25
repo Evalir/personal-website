@@ -4,7 +4,6 @@ import 'styled-components/macro'
 import Footer from '../footer/footer'
 import Nav from '../nav/nav'
 import GlobalStyles from '../../global-styles'
-import Typography from '../../typography'
 
 export default function Layout({ children }) {
   return (
@@ -21,7 +20,6 @@ export default function Layout({ children }) {
       </Helmet>
       <Nav />
       <GlobalStyles />
-      <Typography />
       {children}
       <Footer />
     </div>

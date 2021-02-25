@@ -105,12 +105,6 @@ function BlogPost({ date, excerpt, slug, timeToRead, title }) {
         <Link to={slug}>{title}</Link>
       </h2>
       <p
-        css={`
-          font-size: 1.6rem;
-          font-family: 'Source Sans Pro';
-          line-height: 2.4rem;
-          color: black;
-        `}
       >
         {excerpt}
       </p>

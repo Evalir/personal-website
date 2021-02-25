@@ -13,6 +13,7 @@ export default function BlogTemplate({ data }) {
           text-align: center;
           font-size: 4.8rem;
           margin-bottom: 3rem;
+          font-weight: 800;
         `}
       >
         {frontmatter.title}
@@ -29,9 +30,6 @@ export default function BlogTemplate({ data }) {
       </h2>
       <div
         dangerouslySetInnerHTML={{ __html: html }}
-        css={`
-          font-family: 'Source Sans Pro';
-        `}
       />
     </div>
   )

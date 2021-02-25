@@ -48,7 +48,6 @@ export default function JournalTemplate({ data }) {
       <div
         dangerouslySetInnerHTML={{ __html: html }}
         css={`
-          font-family: 'Source Sans Pro';
           p {
             font-size: 1.6rem;
             line-height: 2.5rem;

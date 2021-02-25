@@ -8,6 +8,8 @@ const GlobalStyles = createGlobalStyle`
     --gray: #747474;
     --red: #D9222E;
     --yellow: #F2C968;
+    --purple: #5522fa;
+    --green: #5ceace;
   }
 
   *,
@@ -37,24 +39,34 @@ const GlobalStyles = createGlobalStyle`
     border: 3px solid var(--white);
   }
 
+  html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: var(--black);
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 4.8rem;
+  }
+
   p, ul {
-    font-family: 'Source Sans Pro', 'Jost', Helvetica, sans-serif;
-    font-size: 1.6rem;
-    line-height: 2.5rem;
-    ${breakpoint('small', `font-size: 2rem; line-height: 4rem;`)}
+    font-size: 1.8rem;
+    line-height: 1.7;
+    ${breakpoint('small', `font-size: 1.8rem; line-height: 1.5;`)}
   }
 
   a {
-    text-decoration: none;
-    background: linear-gradient(to bottom, var(--yellow) 0%, var(--yellow) 100%);
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 4px 5px;
     color: var(--black);
-    transition: background-size 0.4s;
+    text-decoration-thickness: 0.1em;
+    transition: color 0.2s ease, text-decoration-color 0.125s ease;;
 
     &:hover {
-      background-size: 3px 50px;
+      color: var(--purple);
+      text-decoration-color: var(--green);
     }
   }
 
