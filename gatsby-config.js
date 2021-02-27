@@ -104,6 +104,9 @@ module.exports = {
               maxWidth: 656,
             },
           },
+          {
+            resolve: 'gatsby-remark-external-links',
+          },
         ],
       },
     },
