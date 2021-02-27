@@ -21,47 +21,36 @@ export default function Now() {
         </h1>
         <p>
           This is what I've been, am, and will be up to for the foreseeable
-          future. I last updated this on 20th January, 2021.
+          future. I last updated this on 27th February, 2021.
         </p>
         <h2>Work</h2>
         <ul>
-          <li>Back after a long break, extended by leaving Aragon One.</li>
           <li>
-            Currently getting set up and up to speed with the team at my new
-            job,{' '}
+            Currently getting up to speed with the team at my new job,{' '}
             <SafeLink location="https://pokt.network/">Pocket Network</SafeLink>
-            . Excited!
+            . There are a few product improvements I'm trying to get out of the
+            door, and tons of organizational things we're doing to shift to a
+            more product-first culture.
+          </li>
+          <li>
+            Looking for a designer to join the team, so that we can start
+            building pocketUI, our in-house design system for our products,
+            together.
+          </li>
+          <li>
+            Getting everything for my upcoming dev-focused newsletter set up.
           </li>
         </ul>
-        <h2>Music</h2>
+        <h2>Personal</h2>
         <ul>
           <li>
-            Currently going through Ableton's{' '}
-            <SafeLink location="https://learningsynths.ableton.com/en/">
-              synthesis tutorials.
-            </SafeLink>
-          </li>
-          <li>(Still) Playing more bass. Mainly learning Vulfpeck riffs.</li>
-        </ul>
-        <h2>Life</h2>
-        <ul>
-          <li>
-            Currently solidifying my workout habit. I think I've got it down,
-            and will soon have more bandwith to introduce something else into
-            the routine. Supplementing those efforts with reading{' '}
-            <span
-              css={`
-                font-style: italic;
-              `}
-            >
-              The Power Of Habit
-            </span>{' '}
-            by Charles Duhigg.
+            Focusing on improving my diet. I work out at least 4 times a week
+            now, and I've already started to feel much better due to it.
           </li>
           <li>
-            Still living in the Dominican Republic. Warm (hot) and sunny.
-            Looking for borders to open (for real) so I can have a long long
-            trip somewhere.
+            Still living in the Dominican Republic. It's getting too hot again.
+            Looking for borders to open (for real) so I can have a long trip
+            somewhere.
           </li>
         </ul>
       </main>

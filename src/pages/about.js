@@ -1,6 +1,7 @@
 import * as React from 'react'
 import 'styled-components/macro'
 import SafeLink from '../components/safeLink/safeLink'
+import { Link } from 'gatsby'
 
 export default function About() {
   return (
@@ -18,38 +19,105 @@ export default function About() {
             margin-bottom: 1.6rem;
           `}
         >
-          Who am I?
+          About
         </h1>
-        <p>Hello,</p>
         <p>
-          I'm Enrique Ortiz. Nice to meet you! I'm a{' '}
-          <SafeLink href="https://github.com/evalir">
-            Software Developer
+          Hi! I am Enrique, and I'm happy you're here. I'm a 21 year old from
+          the Dominican Republic and I also live there, making interfaces for
+          the web and software in general.
+        </p>
+        <p>
+          I like to think, read and do things related (but not limited to) life
+          extension, music, the web and open source movement, crypto, design,
+          different cultures and places, adrenaline, writing, photography,
+          experimentation, learning, human coordination, space, and any other
+          thing life has to offer at this particular moment in time. I like
+          doing things that feel magnetic to me, and these are the ones which
+          have the biggest particular effect on me as of Feb 27, 2021.
+        </p>
+        <p>
+          I grew up reading blogs and surfing the web, so the cyberspace feels
+          quite native to me. It's why I do that as a day job. I'm an engineer
+          at&nbsp;
+          <SafeLink href="https://github.com/pokt-foundation/">
+            Pocket Network
           </SafeLink>
-          , Musician, and life tinkerer living in the Dominican Republic.
+          , where I do mainly UI Engineering which is what I love the most, and
+          some backend work here and there. Before that I was at&nbsp;
+          <SafeLink href="https://aragon.one/">Aragon One</SafeLink>, where I
+          maintained a few{' '}
+          <SafeLink href="https://github.com/aragon/aragon-apps">
+            user-facing applications
+          </SafeLink>
+          , our&nbsp;
+          <SafeLink href="https://github.com/aragon/ui">
+            open source design system
+          </SafeLink>
+          &nbsp;and&nbsp;
+          <SafeLink href="https://github.com/aragon/use-wallet">
+            Javascript libraries
+          </SafeLink>
+          . I've been extremely fortunate to work on open source for most of my
+          career. If you'd like to see my code, the "Work" link on the header
+          will take you to my Github profile.
         </p>
         <p>
-          I enjoy experimenting with and learning new things constantly—those
-          are the things I'd say I do somewhat well, at least. These involve
-          mainly web technologies. On my day job at Pocket Network, I apply this
-          knowledge and maintain user-facing products such as the Dashboard,
-          Wallet and Block Explorer. Call that full-stack, if you will.
+          I'm an empathy-driven person. I like understanding other people's
+          feelings, ideas and experiences. It's probably why music hits close to
+          home. I don't make a lot of music nowadays, but I have a lot of
+          unreleased stuff I should put out at some point. I have a&nbsp;
+          <SafeLink href="https://evalir.bandcamp.com">Bandcamp</SafeLink> page
+          with what's out. I also listen to a lot of music, of any genre. My
+          favorite artists are Tycho, Enya and Judas Priest. I also play bass
+          and guitar.
         </p>
-
         <p>
-          When not at my day job, I like listening, collecting and making music.
-          I play guitar and bass, and I'm a huge fan of artists like Enya, Tycho
-          and Judas Priest. My "artist" name is{' '}
-          <SafeLink href="https://evalir.bandcamp.com/">Evalir</SafeLink>, which
-          has also become my username on the internet for, well, pretty much
-          everything?
+          This blog comes from my neglected love for writing. As a teenager, I
+          was always spinning up and then forgetting blogs in various
+          platforms—the worst of them probably being my Tumblr one—but never got
+          around to making my *own* personal space on the internet. This is what
+          this site strives to be. It's why it isn't so flashy, even if my
+          industry mandates that every developer has an incredible site stuffed
+          with animations and gigabytes of CSS. I could do all of that, but I
+          choose not to. I want to have this blog until I die, available for
+          anyone to discover and see my journey through this weird thing we call
+          life. There's a few things I need to get around to, like publishing my
+          posts to IPFS and archiving them correctly, but one step at a time.
         </p>
-
+        <p>Welcome to my personal internet corner. Have fun! :)</p>
+        <h2
+          css={`
+            font-weight: 600;
+            margin-bottom: 1.6rem;
+          `}
+        >
+          More
+        </h2>
         <p>
-          I also really like being outdoors, doing extreme sports, reading, and
-          doing whatever random and interesting thing comes up at the time. It's
-          all about having fun, and learning throughout the way.
+          Ah, I love curious people like you. I encourage you to take a tour
+          around this site. You may find some interesting things.
         </p>
+        <p>Here are a couple of things you can take a look at:</p>
+        <ul>
+          <li>
+            Find out what I'm doing&nbsp;
+            <Link to="/now">
+              <i>now</i>
+            </Link>
+            .
+          </li>
+          <li>
+            Check out my current&nbsp;
+            <Link to="/setup">
+              <i>setup</i>
+            </Link>
+            .
+          </li>
+          <li>
+            Check out what I&nbsp;<Link to="/inspiration">stole</Link>&nbsp;
+            from other sites for this website.
+          </li>
+        </ul>
       </main>
     </>
   )
