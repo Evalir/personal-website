@@ -38,7 +38,6 @@ export default function Nav() {
         <Link to="/blog">Blog</Link>
         <SafeLink location="https://github.com/Evalir">Work</SafeLink>
         <Link to="/about">About</Link>
-        <Link to="/more">More</Link>
       </div>
     </nav>
   )
