@@ -20,6 +20,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const blogPostTemplate = require.resolve(`./src/templates/blogPost.js`)
   const journalPostTemplate = require.resolve(`./src/templates/journalPost.js`)
+  const setupTemplate = require.resolve('./src/templates/setup')
 
   const result = await graphql(`
     {
@@ -43,9 +44,30 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return
   }
 
-  const numOfPosts = result.data.allMarkdownRemark.edges.length
+  const blogNodes = result.data.allMarkdownRemark.edges.filter(({ node }) =>
+    node.frontmatter.slug.includes('blog')
+  )
+  const journalNodes = result.data.allMarkdownRemark.edges.filter(({ node }) =>
+    node.frontmatter.slug.includes('journal')
+  )
+  const setupNode = result.data.allMarkdownRemark.edges.find(({ node }) =>
+    node.frontmatter.slug.includes('setup')
+  )
+
+  const numOfPosts = blogNodes.length + journalNodes.length
   const numOfPages = Math.ceil(numOfPosts / POSTS_PER_PAGE)
 
+  // Setup page
+  createSinglePage({
+    createPage,
+    context: {
+      slug: setupNode.node.frontmatter.slug,
+    },
+    template: setupTemplate,
+    path: '/setup',
+  })
+
+  // Blog pagination
   Array.from({ length: numOfPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/blog` : `/blog/${i + 1}`,
@@ -59,12 +81,34 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     })
   })
 
-  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  // Journal posts
+  createPosts({
+    createPage,
+    nodes: journalNodes,
+    template: journalPostTemplate,
+  })
+
+  // Blog posts
+  createPosts({
+    createPage,
+    nodes: blogNodes,
+    template: blogPostTemplate,
+  })
+}
+
+function createSinglePage({ createPage, template, context, path }) {
+  createPage({
+    path,
+    component: template,
+    context,
+  })
+}
+
+function createPosts({ createPage, nodes, template }) {
+  nodes.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.slug,
-      component: node.frontmatter.slug.includes('journal')
-        ? journalPostTemplate
-        : blogPostTemplate,
+      component: template,
       context: {
         slug: node.frontmatter.slug,
       },
